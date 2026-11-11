@@ -495,15 +495,6 @@ $env:PYTHONPATH="."
 PYTHONPATH=. pytest -v backend/tests/
 ```
 
----
-
-## Implementation Roadmap
-
-Progress against [`implementation.md`](implementation.md):
-
-- [x] **Milestone 1: Backend Foundation & Storage** — FastAPI server, SQLAlchemy schema, ChromaDB store, Neo4j + NetworkX dual graph store (`8/8` tests passing).
-- [x] **Milestone 2: Ingestion & Knowledge Extraction** — Multi-format parsers (`PDF`/`DOCX`/`TXT`), sentence-aligned sliding-window chunker, Gemini + rule-based NER/RE extractor, async background pipeline (`29/29` tests passing).
-- [x] **Milestone 3: Hybrid Retrieval & Grounded Generation** — Query entity linker, $N$-hop graph traversal & multi-hop fact chains, Reciprocal Rank Fusion ($k_0 = 60$), grounded answer generation, and `[SOURCE X]` citation verification (`9/9` tests passing).
-- [ ] **Milestone 4: Evaluation Engine & Benchmarking** — Real benchmark QA runner computing `Recall@K`, `Precision@K`, `MRR`, `Faithfulness`, `Answer Relevance`, and comparative Vector vs. GraphRAG metrics.
-- [ ] **Milestone 5: Modern React Frontend UI** — React 19 + TypeScript + Vite + Tailwind CSS app with Dashboard, Document Management, Hybrid Chat with citation drawer, React Flow Knowledge Graph Explorer, and Evaluation Studio.
-- [ ] **Milestone 6: Full-Stack Verification & Dockerization** — Frontend container integration in `docker-compose.yml` and end-to-end verification.
+#   S y n a p s e 
+ 
+ 
